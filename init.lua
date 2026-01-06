@@ -22,6 +22,7 @@ if not pcall(require, "lazy") then
   vim.fn.getchar()
   vim.cmd.quit()
 end
+-- key map
 
 require "lazy_setup"
 require "polish"
